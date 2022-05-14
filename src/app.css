@@ -8,6 +8,7 @@ body {
   font-family: var(--default-font-family);
 }
 h1,
+h2,
 h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -36,4 +37,41 @@ p {
   background: var(--branding-color);
   color: white;
   border-radius: 4px;
+}
+.container {
+  text-align: center;
+}
+.btn-branding-outline {
+  padding: 18px 46px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container p {
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.title-of-my-work {
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .container h2 {
+    text-align: center;
+  }
+  .container p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .title-of-my-work {
+    font-size: 16px;
+  }
 }
