@@ -40,6 +40,12 @@ p {
   font-size: 55px;
 }
 
+.content-container a {
+  text-decoration: none;
+  color: #272142;
+  font-weight: bold;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -76,6 +82,9 @@ p {
 }
 .content {
   margin: 30px;
+}
+.contact-icon {
+  color: var(--branding-color);
 }
 @media (max-width: 900px) {
   h2 {
