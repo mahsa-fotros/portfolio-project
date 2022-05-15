@@ -138,6 +138,7 @@ footer .social-links a:hover {
   }
   h1 {
     font-size: 48px;
+    margin-top: 30px;
   }
   .hero {
     padding: 80px 20px;
@@ -147,6 +148,7 @@ footer .social-links a:hover {
   }
   .content-container h1 {
     font-size: 30px;
+    margin-top: 30px;
   }
   .title-of-my-work {
     font-size: 16px;
